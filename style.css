@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color:black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 100px;
+    background-color:darkred; 
+}
+
+a{
+    font-size: 14pt;
+    font-family: 'B612 Mono', monospace;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+nav div img {
+    height: 50px;
+}
+
+.pesquisa{
+    background-color: #4a4a4a;
+   display: flex;
+   align-items:center; 
+   height: 30px;
+}   
+
+.pesquisa input{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: #4a4a4a;
+
+div button{
+    border-radius: 20%;
+    border:none;   
+}
